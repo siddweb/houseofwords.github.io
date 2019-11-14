@@ -8744,6 +8744,42 @@ h1, h2, h3, h4, h5,
         .staff .text .faded {
           opacity: 1; } }
 
+.staff2 {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .staff2 .img {
+    height: 160px;
+    background-position: top center; }
+  .staff2 .text {
+    background: #fff;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .staff2 .text h3 {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 0;
+      font-weight: 600; }
+    .staff2 .text .position {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.3);
+      display: block; }
+    .staff2 .text .faded {
+      opacity: 1;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      @media (max-width: 991.98px) {
+        .staff .text .faded {
+          opacity: 1; } }
+
 .ftco-social {
   padding: 0; }
   .ftco-social li {
