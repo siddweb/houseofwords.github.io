@@ -458,7 +458,6 @@ pre {
     .container {
       max-width: 1140px; } }
 
-
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -8752,7 +8751,10 @@ h1, h2, h3, h4, h5,
   transition: all 0.3s ease; }
   .staff2 .img {
     height: 160px;
-    background-position: top center; }
+    background-position: top center;
+    width: auto; 
+    align-content: center;
+    align-items: center;  }
   .staff2 .text {
     background: #fff;
     -moz-transition: all 0.3s ease;
@@ -8760,6 +8762,30 @@ h1, h2, h3, h4, h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+      @media (min-width: 320px) {
+        .staff2 .img {
+          width: 45%; 
+          margin-left: auto;
+          margin-right: auto; } }
+      @media (min-width: 380px) {
+        .staff2 .img {
+          width: 45%;
+          margin-left: auto;
+          margin-right: auto; } }
+      @media (min-width: 576px) {
+        .staff2 .img {
+          width: 45%;
+          margin-left: auto;
+          margin-right: auto; } }
+      @media (min-width: 768px) {
+        .staff2 .img {
+          width: 50%; 
+          margin-left: auto;
+          margin-right: auto; } }
+      @media (min-width: 992px) {
+        .staff2 .img {
+          width: 100%; } }
+
     .staff2 .text h3 {
       text-align: center;
       font-size: 14px;
@@ -8777,8 +8803,9 @@ h1, h2, h3, h4, h5,
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease; }
       @media (max-width: 991.98px) {
-        .staff .text .faded {
+        .staff2 .text .faded {
           opacity: 1; } }
+
 
 .ftco-social {
   padding: 0; }
