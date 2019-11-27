@@ -8806,6 +8806,55 @@ h1, h2, h3, h4, h5,
         .staff2 .text .faded {
           opacity: 1; } }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1f062d;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 320px) {
+        #myBtn {
+          width: 35px;
+          height: 35px;
+          font-size: 12px;  } }
+      @media (min-width: 380px) {
+        #myBtn {
+          width: 35px;
+          height: 35px;
+          font-size: 12px;  } }
+      @media (min-width: 576px) {
+        #myBtn {
+          width: 35px;
+          height: 35px;
+          font-size: 12px;  } }
+      @media (min-width: 768px) {
+        #myBtn {
+          width: 50px;
+          height: 50px;
+          font-size: 16px;  } }
+      @media (min-width: 768px) {
+        #myBtn {
+          width: 50px;
+          height: 50px;
+          font-size: 16px;  } }
+
+#myBtn:hover {
+  background-color: #fff;
+  border: 2px solid #1f062d;
+  border-radius: 50%;
+  color: #1f062d;
+}
+
 
 .ftco-social {
   padding: 0; }
